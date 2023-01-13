@@ -1,12 +1,10 @@
-package Vocaburay;
-
 import java.util.Scanner;
 
 public class VocaMain {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Vocaburary voca = new Vocaburary(("C:\\javajava\\Vocaburay\\voca1800.txt"));
+        Vocaburary voca = new Vocaburary(("voca1800.txt"));
         voca.load(); //파일을 읽고 word객체를 생성해 해쉬맵에 저장
 
         while (true) {
