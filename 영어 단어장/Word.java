@@ -1,8 +1,6 @@
-package Vocaburay;
-
 import java.util.ArrayList;
 /*
-어휘집에 단어 하나를 정의 해주는 데어터 클래스
+어휘집에 단어 하나를 정의 해주는 데이터 클래스
  */
 
 public class Word {
